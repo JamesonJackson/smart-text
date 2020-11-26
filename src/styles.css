@@ -1,0 +1,23 @@
+.App {
+  height: 100%;
+  display: grid;
+  justify-items: center;
+  grid-template-rows: repeat(2, 1fr);
+  font-family: sans-serif;
+}
+
+#color-picker,
+#text {
+  height: 100%;
+  width: 100%;
+  justify-self: center;
+}
+
+#color-picker {
+  cursor: pointer;
+}
+
+#text {
+  text-align: center;
+  font-size: 36px;
+}
